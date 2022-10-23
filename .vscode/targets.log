@@ -1,0 +1,353 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2
+# Built for i686-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Aug 01 20:31:27 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 5)
+SRC := src
+# makefile
+MAKEFLAGS = pqrR
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst 
+ %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := f:/Coding/cpp - in progress/Tetris
+# default
+SHELL := C:/raylib/w64devkit/bin/sh.exe
+# makefile (from 'Makefile', line 4)
+BIN := bin
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+ONEDRIVE = C:\Users\Burakki\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+TMP = C:\Users\Burakki\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Users\Burakki\AppData\Local\Programs\Microsoft VS Code
+# default
+MAKE_HOST := i686-w64-mingw32
+# environment
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\msys64\mingw64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\raylib\w64devkit\bin;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Inkscape\bin;C:\Latexindent;C:\Program Files\nodejs\;C:\Users\Burakki\AppData\Local\Yarn\bin;C:\Program Files\Git\cmd;C:\Program Files\SignPath Foundation\Amethyst Windows;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\Users\Burakki\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Burakki\AppData\Local\Programs\Python\Python39\;C:\Users\Burakki\AppData\Local\Microsoft\WindowsApps;C:\Users\Burakki\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Users\Burakki\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\raylib\w64devkit\bin;C:\Users\Burakki\.dotnet\tools;C:\Users\Burakki\AppData\Roaming\npm;C:\SFML-2.5.1;C:\SFML-2.5.1\include;C:\SFML-2.5.1\lib;C:\msys64\mingw64\bin;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+CHOCOLATEYLASTPATHUPDATE = 133031946730173577
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\Burakki
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'Makefile', line 7)
+LIB := lib -L C:\SFML-2.5.1\lib -lsfml-graphics-s -lsfml-audio-s -lsfml-window-s -lsfml-system-s -lgdi32 -lwinmm -lopengl32 -lfreetype -lopenal32 -lflac -lvorbisenc -lvorbisfile -lvorbis -logg
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17752_EITSHMNLKPBUXDVX
+# environment
+COMPUTERNAME = DESKTOP-TL8QFHP
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = Burakki
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Burakki\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-TL8QFHP
+# environment
+ONEDRIVECONSUMER = C:\Users\Burakki\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-TL8QFHP
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 2)
+CXX_FLAGS := -Wall -Wextra -std=c++11 -ggdb -w -static
+# default
+MAKE_VERSION := 4.2
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 6)
+INCLUDE := include -I C:\SFML-2.5.1\include -DSFML_STATIC
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+JD2_HOME = C:\Users\Burakki\AppData\Local\JDownloader 2.0
+# environment
+LOCALAPPDATA = C:\Users\Burakki\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\e297adc413e13789cbc582ac4c223a8b-1.69.2-main-sock
+# environment
+HOMEPATH = \Users\Burakki
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\Burakki\AppData\Roaming
+# environment
+TEMP = C:\Users\Burakki\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 10)
+EXECUTABLE := main.exe
+# makefile (from 'Makefile', line 1)
+CXX := g++
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 9)
+LIBRARIES := C:\SFML-2.5.1lib -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -static-libgcc -static-libstdc++
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 0101
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+VSCODE_PID = 17752
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-TL8QFHP
+# variable set hash-table stats:
+# Load=99/1024=10%, Rehash=0, Collisions=17/131=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key f:/Coding/cpp - in progress/Tetris, mtime 1659397911ll): 18 files, no impossibilities.
+# src (key f:/Coding/cpp - in progress/Tetris/src, mtime 1659397911ll): 11 files, no impossibilities.
+
+# 29 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: bin/main.exe
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+# Not a target:
+src/Tetris.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-01 19:51:51
+#  File has been updated.
+#  Successfully updated.
+
+bin/main.exe: src/main.cpp src/Window.cpp src/Tetris.cpp src/Game.cpp src/EventManager.cpp
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Last modified 2022-07-31 21:25:00
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := bin/main.exe
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := src/main.cpp src/Window.cpp src/Tetris.cpp src/Game.cpp src/EventManager.cpp
+# automatic
+# | := 
+# automatic
+# < := src/main.cpp
+# automatic
+# ^ := src/main.cpp src/Window.cpp src/Tetris.cpp src/Game.cpp src/EventManager.cpp
+# automatic
+# ? := src/main.cpp src/Window.cpp src/Tetris.cpp src/Game.cpp src/EventManager.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/17=12%
+#  recipe to execute (from 'Makefile', line 20):
+	$(CXX) $^ $(CXX_FLAGS)  -I$(INCLUDE) -L$(LIB)  -o $@
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-01 19:51:51
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/EventManager.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-01 19:51:51
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/Game.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-01 19:51:51
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: clean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 16):
+	clear
+	./$(BIN)/$(EXECUTABLE)
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 23):
+	-rm $(BIN)/*.exe
+
+# Not a target:
+src/main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-01 19:51:51
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/Window.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-01 19:51:51
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=12/1024=1%, Rehash=0, Collisions=0/34=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 38 / storage = 362 B / avg = 9 B
+# current buf: size = 8174 B / used = 362 B / count = 38 / avg = 9 B
+
+# strcache performance: lookups = 53 / hit rate = 28%
+# hash-table stats:
+# Load=38/8192=0%, Rehash=0, Collisions=2/53=4%
+# Finished Make data base on Mon Aug 01 20:31:27 2022
+
+ 
